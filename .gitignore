@@ -1,0 +1,55 @@
+# Backend (Spring Boot) specific files
+backend/target/
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.idea/
+backend/.vscode/
+backend/logs/
+backend/*.log
+backend/*.tmp
+backend/*.bak
+backend/*.backup
+backend/*.swp
+backend/.mvn/
+backend/build/
+
+# Maven
+backend/pom.xml.tag
+backend/pom.xml.releaseBackup
+backend/pom.xml.versionsBackup
+backend/pom.xml.next
+backend/release.properties
+
+# Gradle
+backend/.gradle/
+backend/build/
+
+# Frontend (Flutter) specific files
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/.dart_tool/
+frontend/.idea/
+frontend/.vscode/
+frontend/build/
+frontend/.pub-cache/
+frontend/.pub/
+/frontend/ios/Flutter/Flutter.framework
+/frontend/ios/Flutter/Flutter.podspec
+/frontend/ios/Podfile
+/frontend/ios/Podfile.lock
+/frontend/ios/Pods
+/frontend/ios/Runner.xcworkspace
+/frontend/ios/Runner/GeneratedPluginRegistrant.*
+frontend/pubspec.lock
+frontend/flutter_export_environment.sh
+frontend/.metadata
+frontend/web/.dart_tool/
+frontend/web/build/
+frontend/linux/flutter/ephemeral/
+frontend/macos/Flutter/ephemeral/
+frontend/windows/flutter/ephemeral/
+frontend/.idea/
+frontend/.vscode/
+frontend/test/widget_test.dart
