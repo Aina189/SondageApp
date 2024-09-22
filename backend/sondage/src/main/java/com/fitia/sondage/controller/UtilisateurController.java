@@ -31,5 +31,4 @@ public class UtilisateurController {
         return new ResponseEntity<>(savedUtilisateur, HttpStatus.CREATED);
     }
 
-    // Add exception handling methods here if necessary
 }
