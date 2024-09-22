@@ -83,11 +83,11 @@ class _MyHomePageState extends State<MyHomePage> {
           
         });
       } else {
-        // Si la requête a échoué
+        
         print('Erreur: ${response.statusCode}, ${response.body}');
       }
     } catch (error) {
-      // Gérer les erreurs de requête HTTP
+    
       print('Erreur lors de l\'envoi de la requête : $error');
     }
   }
